@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  helm-chart-releaser-demo:
+  - apiVersion: v2
+    appVersion: 1.16.2
+    created: "2022-03-29T20:37:50.655772476Z"
+    description: A Helm chart for Kubernetes
+    digest: 37ce645503901a02a98a30868732880b0ffe3bb26ddf3faf28930a3073538cd9
+    name: helm-chart-releaser-demo
+    type: application
+    urls:
+    - https://github.com/GezimSejdiu/helm-chart-releaser-demo/releases/download/helm-chart-releaser-demo-0.1.0/helm-chart-releaser-demo-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-03-29T20:37:50.655777076Z"
