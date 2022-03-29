@@ -14,7 +14,7 @@ helm repo add helm-chart-releaser-demo https://gezimsejdiu.github.io/helm-chart-
 Let's go ahead and deploy our demo chart using the helm install command:
 
 ```console
-helm install helm-chart-releaser-demo --set service.type=NodePort
+helm install demo-ngnix helm-chart-releaser-demo/helm-chart-releaser-demo  --set service.type=NodePort
 ```
 
 Run the commands in the output to get a URL to access the NGINX service and pull it up in your browser.
